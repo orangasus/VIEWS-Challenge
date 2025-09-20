@@ -270,3 +270,5 @@ if __name__ == "__main__":
   dataset = step_4_create_pgm_dataset(predictions_df)
   # Add step 5 for MAP estimates calculation
   map_estimates = step_5_calculate_map_estimates(dataset, sample_size=10)
+  # Add step 6 for confidence intervals calculation
+  hdi_results = step_6_calculate_confidence_intervals(dataset, sample_size=10)
